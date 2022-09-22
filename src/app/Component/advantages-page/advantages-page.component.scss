@@ -1,0 +1,242 @@
+.headerBigBlock {
+    width: 100%;
+    height: 404px;
+    background-image: url('../../../assets/vc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerBlock {
+    width: 100%;
+    height: 110px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.headerLogo {
+    width: 20%;
+    height: 110px;
+    background-image: url('../../../assets/Сгруппировать 78 (2) 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.headerNavbar {
+    width: 70%;
+    height: 110px;
+}
+
+.testingBigBlock {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testingInfoAndButtonBigBlock {
+    width: 55%;
+    height: 250px;
+    padding: 55px;
+}
+
+.testingLogoBig {
+    width: 40%;
+    height: 250px;
+    background-image: url('../../../assets/kisspng-lake-sumter-state-college-student-education-univer-5d0a1c127df303 1.png');
+    background-size: 390px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.testingTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #000000;
+
+}
+
+.seeMoreBlockBu {
+    margin-top: 35px;
+    background: #42975B;
+    border-radius: 0px 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    width: 25%;
+    height: 40px;
+    border: none;
+}
+
+.lessonProcesingText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lessonProcesingText2 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #000000;
+
+}
+
+.lessonDscText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-indent: 30px;
+}
+
+.procesingBlockT {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    overflow: auto;
+}
+
+.procesingAllImgBlockBig {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.oneImg {
+    width: 43%;
+    height: 380px;
+    background-image: url('../../../assets/Rectangle 325.png');
+    background-repeat: no-repeat;
+    border-radius: 20px 0px;
+    background-size: inherit;
+    background-position: right;
+}
+
+.moreBlcok {
+    width: 48%;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.moreOneImgBLock {
+    width: 28%;
+    height: 170px;
+    border-radius: 0px 20px;
+    margin-right: 20px;
+}
+
+.moreLongImgBLock {
+    width: 45%;
+    height: 170px;
+    border-radius: 0px 20px;
+    margin-right: 20px;
+
+}
+
+.lastBigBLockInAdvantages {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.lastImgOne {
+    width: 40%;
+    height: 450px;
+    border-radius: 0px 20px;
+    background-image: url('../../../assets/Rectangle 316.png');
+    background-repeat: no-repeat;
+}
+
+.lastImgTwo {
+    width: 40%;
+    height: 450px;
+    margin-left: 25px;
+    border-radius: 0px 20px;
+    background-image: url('../../../assets/Rectangle 326.png');
+    background-repeat: no-repeat;
+    background-position-y: -131px;
+    background-size: cover;
+}
+
+.adtavangaesTextTop {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #06295E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width:1390px) {
+    .seeMoreBlockBu{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1180px) {
+    .seeMoreBlockBu{
+        width: 33%;
+    }
+}
+@media screen and (max-width:920px) {
+    .seeMoreBlockBu{
+        width: 40%;
+        font-size: 13px;
+
+    }
+}
+@media screen and (max-width:725px) {
+    .testingLogoBig{
+        background-size: 330px;
+    }
+}
+@media screen and (max-width:690px) {
+    .seeMoreBlockBu{
+        width: 55%;
+    }
+}
+@media screen and (max-width:600px) {
+    .testingLogoBig{
+        background-size: 265px;
+    }
+}
+@media screen and (max-width:585px) {
+    .headerLogo{
+        width: 50%;
+    }
+}
+@media screen and (max-width:555px) {
+    .seeMoreBlockBu{
+        margin-top: 10px;
+        width: 75%;
+    }
+}

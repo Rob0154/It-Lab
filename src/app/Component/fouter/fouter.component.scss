@@ -1,0 +1,154 @@
+.fouterBigBlock {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #06295E;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fouterContetntsBlock {
+    width: 50%;
+    height: 400px;
+    background-image: url('../../../assets/ks.png');
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position-x: 6px;
+    background-position-y: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fouterContetntsBlock2 {
+    height: 400px;
+}
+
+.fouterContetntsBlock3 {
+    height: 400px;
+}
+
+.fouterContetntsBlock4 {
+    height: 400px;
+}
+
+.contactBigBlock {
+    width: 85%;
+    height: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.contactBigBlock2 {
+    width: 85%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.conatctLogoBlock {
+    width: 13%;
+    height: 30px;
+}
+
+.conatactInfoBlock {
+    width: 87%;
+    height: 30px;
+}
+
+.conatctLogoBlockMore {
+    width: 40%;
+    height: 30px;
+}
+
+.logoTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+}
+
+.allConatactBigBLock {
+    width: 80%;
+}
+
+.logoTextStyle2 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+}
+.fouterTwoBlock1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.fouterTwoBlock2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:1341px) {
+    .contactBigBlock{
+        width: 125%;
+    }
+}
+@media screen and (max-width:1151px) {
+    .fouterContetntsBlock{
+        background-size: 147px;
+    }
+}
+
+@media screen and (max-width:755px) {
+    .fouterBigBlock{
+        display: block;
+    }
+    .fouterContetntsBlock{
+        background-position: center;
+        background-position-y: 10px;
+        background-position-x: -4px;
+    }.fouterContetntsBlock3{
+        margin: auto;
+    }
+    .fouterTwoBlock1{
+        width: 100%;
+    }
+    .fouterTwoBlock2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:420px) {
+    .logoTextStyle{
+        font-size: 12px;
+    }
+    .logoTextStyle2{
+        font-size: 12px;
+    }
+    .specialNameText{
+        width: 0;
+    }
+}
+@media screen and (max-width:360px) {
+    .descibshnBigBlock{
+        font-size: 10px;
+    }
+    .loTeBlock{
+        p{
+            font-size: 10px;
+        }
+    }
+}

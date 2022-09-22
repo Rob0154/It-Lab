@@ -1,0 +1,132 @@
+<div class="headerBigBlock">
+    <div class="headerBlock">
+        <div class="headerLogo"></div>
+        <div class="headerNavbar">
+            <app-header></app-header>
+        </div>
+    </div>
+    <p class="cursesTextStyle" >Դասընթացավարներ</p>
+</div>
+<div class="sortAndTimeTextBigBLock">
+    <div class="sortBlock">Տեսակավորել <img src="../../../assets/Group 1311.png"  alt="no image!" style="width: 5%;" [matMenuTriggerFor]="menu" style="cursor: pointer;"></div>
+    <div class="timeBlock" data-bs-toggle="modal" data-bs-target="#exampleModal">Ժամանակացույց</div>
+</div>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item>Ըստ ուսուցման ձևի </button>
+    <button mat-menu-item>Ըստ ժամանակի </button>
+    <button mat-menu-item>Ըստ պահանջվածության </button>
+</mat-menu>
+
+<mat-tab-group headerPosition="below">
+    <mat-tab label="1"> 
+        <div class="bigUsersBlock">
+        <div class='demo-content' *ngFor="let itm of cursesList,let i = index">
+            <div class="logoBlockInCarusel">
+                <img src={{itm.img}} alt="no image!" style=" width: 50%; display: block; margin: auto;"
+                [ngClass]="{'img1': i == 0 , 'img2': i == 2, 'img3': i == 4, 'img4': i == 5, 'img5':i == 6}"
+                >
+            </div>
+            <div class="mineLogoBig">
+                <div class="mineLogo1"></div>
+                <div class="mineText1">{{itm.muchTitle}}</div>
+                <div class="mineLogo2"></div>
+                <div class="mineText2">{{itm.dayTitle}}</div>
+            </div>
+            <p class="muchText">{{itm.amd}}</p>
+            <p class="curseInfo">{{itm.cursesNameTitle}}</p>
+            <p class="curseAbout">{{itm.decribtheonCurses}}</p>
+            <button class="moreBlock" (click)="rountingPage()">Տեսնել ավելին</button>
+        </div>
+    </div> 
+</mat-tab>
+    <mat-tab label="2"> 
+        <div class="bigUsersBlock">
+            <div class='demo-content' *ngFor="let itm of cursesList,let i = index">
+                <div class="logoBlockInCarusel">
+                    <img src={{itm.img}} alt="no image!" style=" width: 50%; display: block; margin: auto;"
+                    [ngClass]="{'img1': i == 0 , 'img2': i == 2, 'img3': i == 4, 'img4': i == 5, 'img5':i == 6}"
+                    >
+                </div>
+                <div class="mineLogoBig">
+                    <div class="mineLogo1"></div>
+                    <div class="mineText1">{{itm.muchTitle}}</div>
+                    <div class="mineLogo2"></div>
+                    <div class="mineText2">{{itm.dayTitle}}</div>
+                </div>
+                <p class="muchText">{{itm.amd}}</p>
+                <p class="curseInfo">{{itm.cursesNameTitle}}</p>
+                <p class="curseAbout">{{itm.decribtheonCurses}}</p>
+                <button class="moreBlock" (click)="rountingPage()">Տեսնել ավելին</button>
+            </div>
+        </div>    
+    </mat-tab>
+    <mat-tab label="3"> 
+        <div class="bigUsersBlock">
+            <div class='demo-content' *ngFor="let itm of cursesList,let i = index">
+                <div class="logoBlockInCarusel">
+                    <img src={{itm.img}} alt="no image!" style=" width: 50%; display: block; margin: auto;"
+                    [ngClass]="{'img1': i == 0 , 'img2': i == 2, 'img3': i == 4, 'img4': i == 5, 'img5':i == 6}"
+                    >
+                </div>
+                <div class="mineLogoBig">
+                    <div class="mineLogo1"></div>
+                    <div class="mineText1">{{itm.muchTitle}}</div>
+                    <div class="mineLogo2"></div>
+                    <div class="mineText2">{{itm.dayTitle}}</div>
+                </div>
+                <p class="muchText">{{itm.amd}}</p>
+                <p class="curseInfo">{{itm.cursesNameTitle}}</p>
+                <p class="curseAbout">{{itm.decribtheonCurses}}</p>
+                <button class="moreBlock" (click)="rountingPage()">Տեսնել ավելին</button>
+            </div>
+        </div>
+    </mat-tab>
+  </mat-tab-group>
+<p class="soonTextStyle">Շուտով</p>
+<div class="bigUsersBlock2">
+    <div class='demo-content' *ngFor="let itm of cursesSmoolList,let i = index">
+        <div class="logoBlockInCarusel">
+            <img src={{itm.img}} alt="no image!" style=" width: 50%; display: block; margin: auto;"
+            [ngClass]="{'img1': i == 0 , 'img2': i == 2, 'img3': i == 4, 'img4': i == 5, 'img5':i == 6}"
+            >
+        </div>
+        <div class="mineLogoBig">
+            <div class="mineLogo1"></div>
+            <div class="mineText1">{{itm.muchTitle}}</div>
+            <div class="mineLogo2"></div>
+            <div class="mineText2">{{itm.dayTitle}}</div>
+        </div>
+        <p class="muchText">{{itm.amd}}</p>
+        <p class="curseInfo">{{itm.cursesNameTitle}}</p>
+        <p class="curseAbout">{{itm.decribtheonCurses}}</p>
+        <button class="moreBlock">Տեսնել ավելին</button>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="margin-left: -310px;width: 235%;">
+        <div class="modal-header" style="border: none;">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="timeTextStyle">Ժամանակացույց</p>
+          <div class="timeDetpickerAndDesBigBlock">
+            <div class="detpickerBlock">
+                <mat-card class="demo-inline-calendar-card">
+                    <mat-calendar [(selected)]="selected"></mat-calendar>
+                  </mat-card>
+            </div>
+            <div class="detpickerInfoBlock">
+                <p>Մայիս 3, 2022թ․</p>
+                <div>
+                    <p>Այսօր սպասվում է բաց դաս Ծրագրավորման հիմունքներ դասընթացի։</p>
+                    <p>Սիրով սպասում ենք մեր կենտրոնում ժամը 13։00։</p>
+                </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>

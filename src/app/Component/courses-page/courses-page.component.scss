@@ -1,0 +1,582 @@
+.headerBigBlock {
+    width: 100%;
+    height: 404px;
+    background-image: url('../../../assets/A.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headerBlock {
+    width: 100%;
+    height: 110px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.headerFoutBigBlock {
+    width: 100%;
+    height: 510px;
+    display: flex;
+}
+
+.headerLeftBlock {
+    width: 50%;
+    height: 510px;
+}
+
+.headerRightBlock {
+    width: 50%;
+    height: 510px;
+    background-image: url('../../../assets/kisspng-student-portable-network-graphics-school-college-h-5c63b40e29f767 1.png');
+    background-size: 595px;
+    background-repeat: no-repeat;
+}
+
+.headerLogo {
+    width: 20%;
+    height: 110px;
+    background-image: url('../../../assets/Сгруппировать 78 (2) 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.headerNavbar {
+    width: 70%;
+    height: 110px
+}
+
+.cursesTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 390px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #06295E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sortAndTimeTextBigBLock {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.sortBlock {
+    width: 20%;
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #101010;
+}
+
+.timeBlock {
+    width: 20%;
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #101010;
+}
+.moreBlock:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    background: #06295E;
+    color: white;
+}
+.timeBlock:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    text-shadow: 0 0 10px black;
+}
+::ng-deep .mat-menu-item {
+    height: 40px !important;
+}
+
+.bigUsersBlock {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bigUsersBlock2 {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logoBlockInCarusel {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    margin-top: 20px;
+    // background-image: url('../../../assets/kisspng-sat-bildung-oase-student-education-college-students-5ac817434431c4 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 2px;
+    background-size: 112px;
+}
+
+.mineLogoBig {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.mineLogo1 {
+    width: 18%;
+    height: 40px;
+    background-image: url('../../../assets/clarity_book-line.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mineText1 {
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: right;
+
+}
+
+.mineLogo2 {
+    width: 18%;
+    height: 40px;
+    background-image: url('../../../assets/Group.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mineText2 {
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: right;
+
+}
+
+.muchText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #42975B;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.curseInfo {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #06295E;
+    margin-left: 25px;
+
+}
+
+.curseAbout {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #101010;
+    margin-left: 25px;
+
+}
+
+.moreBlock {
+    background: #FFFFFF;
+    border: 1px solid #42975B;
+    border-radius: 0px 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #42975B;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+
+.demo-content {
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    width: 21%;
+    height: 460px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.img1 {
+    height: 150px !important;
+}
+
+.img2 {
+    height: 150px !important;
+    width: 75% !important;
+}
+
+.img3 {
+    height: 150px !important;
+    width: 75% !important;
+}
+
+.img4 {
+    height: 150px !important;
+    width: 75% !important;
+}
+
+.img5 {
+    height: 150px !important;
+}
+
+.paginatorBlock {
+    width: 10%;
+    height: 30px;
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+}
+
+.paginator1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #42975B;
+
+}
+
+.paginator2 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #06295E;
+}
+
+.paginator3 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #06295E;
+}
+
+.soonTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #101010;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.timeTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+}
+
+.timeDetpickerAndDesBigBlock {
+    width: 100%;
+    height: 355px;
+    display: flex;
+}
+
+.detpickerBlock {
+    width: 27%;
+    height: auto;
+    margin: auto;
+}
+
+.detpickerInfoBlock {
+    width: 60%;
+    height: auto;
+
+    p {
+        font-family: 'Segoe UI';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+
+    div {
+        background: #DEDEDE;
+        border-radius: 12px;
+        width: 100%;
+        height: 230px;
+        padding: 5%;
+
+        p {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 2px;
+
+            color: #000000;
+        }
+    }
+}
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar{
+    display: none;
+  }
+::ng-deep .mat-tab-label{
+    min-width: 0!important;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #06295E;
+    opacity: 1!important;
+  }
+::ng-deep .mat-tab-labels {
+    display: flex;
+    justify-content: flex-end;
+    opacity: 1!important;
+  }
+::ng-deep .mat-tab-label-active{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #42975B;
+  }
+.demo-inline-calendar-card {
+    width: 300px;
+}
+
+@media screen and (max-width:1225px) {
+    .cursesTextStyle {
+        line-height: 150px;
+    }
+
+    .modal-content {
+        margin-left: -139px !important;
+        width: 156% !important;
+    }
+    .detpickerBlock{
+        margin: 0;
+        width: 42%;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .demo-content {
+        width: 26%;
+        margin-bottom: 10px;
+    }
+
+    .headerBigBlock {
+        height: 315px;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .timeBlock {
+        width: 45%;
+    }
+
+    .headerBigBlock {
+        height: 241px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .demo-content {
+        width: 35%;
+        margin-bottom: 10px;
+
+    }
+
+    .sortBlock {
+        width: 26%;
+
+        img {
+            width: 7%;
+        }
+    }
+}
+@media screen and (max-width:793px){
+    .timeDetpickerAndDesBigBlock{
+        display: block;
+        height: auto;
+    }
+    .detpickerBlock{
+        margin: auto;
+        width: 72%;
+    }
+    .detpickerInfoBlock{
+        margin: auto;
+    }
+    p{
+        text-align: center;
+    }
+    .modal-content{
+        margin-left: 14px !important;
+        width: 95% !important;
+    }
+}
+@media screen and (max-width:773px) {
+    .cursesTextStyle {
+        line-height: 20px;
+    }
+
+    .headerBigBlock {
+        height: 205px;
+    }
+}
+
+@media screen and (max-width:702px) {
+    .moreBlock {
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .sortBlock {
+        width: 36%;
+
+        img {
+            width: 7%;
+        }
+    }
+}
+
+@media screen and (max-width:642px) {
+    .demo-content {
+        width: 49%;
+        margin-bottom: 10px;
+
+    }
+}
+
+@media screen and (max-width:625px) {
+    .demo-content {
+        width: 49%;
+        margin-bottom: 10px;
+
+    }
+
+    .sortBlock {
+        width: 46%;
+
+        img {
+            width: 7%;
+        }
+    }
+}
+
+@media screen and (max-width:573px) {
+    .headerLogo {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .cursesTextStyle {
+        line-height: 0;
+        font-size: 15px;
+    }
+
+    .headerBigBlock {
+        height: 138px;
+    }
+}
+
+@media screen and (max-width:437px) {
+    .demo-content {
+        width: 62%;
+        margin-bottom: 10px;
+    }
+
+    .timeBlock {
+        width: 45%;
+        font-size: 15px;
+    }
+    .sortBlock{
+        width: 36%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .demo-content {
+        width: 75%;
+        margin-bottom: 10px;
+
+    }
+
+    .sortBlock {
+        width: 38%;
+
+        img {
+            width: 7%;
+        }
+    }
+}

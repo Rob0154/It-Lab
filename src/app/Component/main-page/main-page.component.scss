@@ -1,0 +1,1667 @@
+.headerBigBlock {
+    width: 100%;
+    height: 625px;
+    background-image: url('../../../assets/g10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerBlock {
+    width: 100%;
+    height: 110px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.headerFoutBigBlock {
+    width: 100%;
+    height: 510px;
+    display: flex;
+}
+
+.headerLeftBlock {
+    width: 50%;
+    height: 510px;
+}
+
+.headerRightBlock {
+    width: 50%;
+    height: 510px;
+    background-image: url('../../../assets/kisspng-student-portable-network-graphics-school-college-h-5c63b40e29f767 1.png');
+    background-size: 595px;
+    background-repeat: no-repeat;
+}
+
+.headerLogo {
+    width: 20%;
+    height: 110px;
+    background-image: url('../../../assets/Сгруппировать 78 (2) 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.headerNavbar {
+    width: 70%;
+    height: 110px;
+}
+
+.fortudyText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 235px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #06295E;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 7%;
+    margin-bottom: 0;
+    height: 160px;
+}
+
+.fortudyText2 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #06295E;
+    width: 72%;
+    margin-left: 7%;
+    margin-bottom: 26px;
+}
+
+.lessons {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200px;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+}
+
+.caruselBigBlock {
+    width: 99%;
+    height: 470px;
+    margin: auto;
+
+}
+
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    position: relative;
+}
+
+.carousel__activator {
+    display: none;
+}
+
+.carousel__controls {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 16px;
+    left: 16px;
+    bottom: 0;
+}
+
+.carousel__controls:first-of-type {
+    justify-content: flex-end;
+}
+
+.carousel__controls:last-of-type {
+    justify-content: flex-start;
+}
+
+.carousel__control {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #3d414a;
+    border-radius: 100%;
+    font-size: 24px;
+    height: 48px;
+    justify-content: center;
+    transition: 0.3s all;
+    width: 48px;
+    z-index: 1;
+}
+
+.carousel__control:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.carousel__activator:nth-of-type(1):checked~.carousel__controls:nth-of-type(1) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(1):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.carousel__activator:nth-of-type(2):checked~.carousel__controls:nth-of-type(2) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(2):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.carousel__activator:nth-of-type(3):checked~.carousel__controls:nth-of-type(3) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(3):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-200%);
+    transform: translateX(-200%);
+}
+
+.carousel__activator:nth-of-type(4):checked~.carousel__controls:nth-of-type(4) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(4):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-300%);
+    transform: translateX(-300%);
+}
+
+.carousel__activator:nth-of-type(5):checked~.carousel__controls:nth-of-type(5) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(5):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-400%);
+    transform: translateX(-400%);
+}
+
+.carousel__activator:nth-of-type(6):checked~.carousel__controls:nth-of-type(6) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(6):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-500%);
+    transform: translateX(-500%);
+}
+
+.carousel__activator:nth-of-type(7):checked~.carousel__controls:nth-of-type(7) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(7):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-600%);
+    transform: translateX(-600%);
+}
+
+.carousel__activator:nth-of-type(8):checked~.carousel__controls:nth-of-type(8) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(8):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-700%);
+    transform: translateX(-700%);
+}
+
+.carousel__activator:nth-of-type(9):checked~.carousel__controls:nth-of-type(9) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(9):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-800%);
+    transform: translateX(-800%);
+}
+
+.carousel__activator:nth-of-type(10):checked~.carousel__controls:nth-of-type(10) {
+    display: flex;
+}
+
+.carousel__activator:nth-of-type(10):checked~.carousel__screen .carousel__track {
+    -webkit-transform: translateX(-900%);
+    transform: translateX(-900%);
+}
+
+.carousel__screen {
+    overflow: hidden;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.carousel__track {
+    font-size: 0;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel__item {
+    display: inline-flex;
+    padding-left: 55px;
+    padding-right: 16px;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.carousel__item--desktop-in-1 {
+    width: 330px;
+}
+
+.carousel__item--desktop-in-2 {
+    width: 330px;
+}
+
+.carousel__item--desktop-in-3 {
+    width: 330px;
+}
+
+.carousel__item--desktop-in-4 {
+    width: 330px;
+}
+
+.carousel__item--desktop-in-5 {
+    width: 330px;
+}
+
+
+
+.demo-content {
+    color: #fff;
+    border-radius: 3px;
+    height: 250px;
+    width: 100%;
+}
+
+.carousel__item:nth-child(1) .demo-content {
+    height: 435px;
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+}
+
+.carousel__item:nth-child(2) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+}
+
+.carousel__item:nth-child(3) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+
+}
+
+.carousel__item:nth-child(4) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+}
+
+.carousel__item:nth-child(5) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+}
+
+.carousel__item:nth-child(6) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+}
+
+.carousel__item:nth-child(7) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+}
+
+.carousel__item:nth-child(8) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+}
+
+.carousel__item:nth-child(9) .demo-content {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    height: 435px;
+}
+
+@media screen and (max-width: 1023px) {
+    .carousel {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel__activator:nth-of-type(n):checked~.carousel__controls:nth-of-type(n) {
+        display: none;
+    }
+
+    .carousel__activator:nth-of-type(n):checked~.carousel__screen .carousel__track {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .carousel__screen {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .carousel__track {
+        overflow-y: auto;
+        width: auto;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .carousel__item--tablet-in-1 {
+        width: 400px;
+    }
+
+    .carousel__item--tablet-in-2 {
+        width: 380px;
+
+    }
+
+    .carousel__item--tablet-in-3 {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .carousel__track {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel__item--mobile-in-1 {
+        width: 380px;
+    }
+
+    .carousel__item--mobile-in-2 {
+        width: 360px;
+    }
+
+    .carousel__item--mobile-in-3 {
+        width: 340px;
+    }
+}
+
+.logoBlockInCarusel {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    margin-top: 20px;
+    background-image: url('../../../assets/kisspng-sat-bildung-oase-student-education-college-students-5ac817434431c4 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 2px;
+    background-size: 112px;
+}
+
+.logoBlockInCarusel2 {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    margin-top: 20px;
+    background-image: url('../../../assets/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 2px;
+    background-size: 122px;
+}
+
+.logoBlockInCarusel3 {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    margin-top: 20px;
+    background-image: url('../../../assets/kisspng-international-student-university-school-education-to-study-5b19e2709fe2c7 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 2px;
+    background-size: 200px;
+}
+
+.logoBlockInCarusel4 {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    margin-top: 20px;
+    background-image: url('../../../assets/5a38462fc548b3 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 2px;
+    background-size: 112px;
+}
+
+.mineLogoBig {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.mineLogo1 {
+    width: 18%;
+    height: 40px;
+    background-image: url('../../../assets/clarity_book-line.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mineText1 {
+    width: 22%;
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: right;
+
+}
+
+.mineLogo2 {
+    width: 18%;
+    height: 40px;
+    background-image: url('../../../assets/Group.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mineText2 {
+    width: 32%;
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: right;
+
+}
+
+.muchText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #42975B;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.curseInfo {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #06295E;
+    margin-left: 25px;
+
+}
+
+.curseAbout {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #101010;
+    margin-left: 25px;
+
+}
+
+.moreBlock {
+    background: #FFFFFF;
+    border: 1px solid #42975B;
+    border-radius: 0px 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #42975B;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+.moreBlock:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    background: #06295E;
+    color: white;
+}
+.ourAdvantages {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+}
+
+.advantagesBigBlock {
+    width: 99%;
+    height: 410px;
+    margin: auto;
+    display: flex;
+}
+
+.advantagesLeftBlock {
+    width: 50%;
+    height: 410px;
+}
+
+.advantagesRightBlock {
+    width: 50%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantagesInfBigBlock {
+    width: 80%;
+    height: 40px;
+    display: flex;
+    margin: 3%;
+    margin-bottom: 0;
+}
+
+.advantagesLogo {
+    width: 10%;
+    height: 40px;
+}
+
+.advantagesText {
+    width: 85%;
+    height: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #06295E;
+}
+
+.viewMoreBlock {
+    border: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    background: #42975B;
+    border-radius: 0px 20px;
+    width: 30%;
+    height: 50px;
+    display: block;
+    margin: 40px;
+    float: right;
+}
+
+.AdvantagesRightImg1 {
+    border-radius: 0px 20px;
+    width: 40%;
+    height: 350px;
+    margin-right: 50px;
+    background-image: url('../../../assets/Rectangle 328.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.AdvantagesRightImg2 {
+    border-radius: 0px 20px;
+    ;
+    width: 35%;
+    height: 300px;
+    background-image: url('../../../assets/Rectangle 327.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.traning {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200px;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+    height: 165px;
+}
+
+.traningBigBlock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.traningBlock {
+    width: 20%;
+    height: 300px;
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+}
+
+.traningImg {
+    width: 60%;
+    height: 150px;
+    margin: auto;
+}
+
+.img2 {
+    width: 100% !important;
+    height: 150px;
+
+}
+
+.img3 {
+    width: 50% !important;
+    height: 150px;
+
+}
+
+.img4 {
+    width: 100% !important;
+    height: 150px;
+}
+
+.traningText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+}
+
+.tranginButton {
+    width: 50%;
+    height: 50px;
+    background: none;
+    border: 1px solid #42975B;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #42975B;
+    border-radius: 0px 20px;
+    display: block;
+    margin: auto;
+}
+
+.inputRegistrFormBigBlock {
+    width: auto;
+    height: auto;
+    margin-top: 69px;
+}
+
+.rigistrBigBlock {
+    width: 99%;
+    height: 490px;
+    background: white;
+    background-image: url('../../../assets/Groupl.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+    display: flex;
+    margin-top: 80px;
+}
+
+.lessonTime {
+    width: 70%;
+    height: 420px;
+}
+
+.registrForLesson {
+    width: 30%;
+    height: 490px;
+}
+
+.lessonText {
+    width: 100%;
+    height: 50px;
+}
+
+.lessonDuration {
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+
+.lessonTextP {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #06295E;
+    margin: 25px;
+}
+
+.durationsBlock {
+    width: 18%;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px;
+    margin: 30px;
+}
+
+.duraionTime {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #42975B;
+    margin: 30px;
+    margin-bottom: 5px;
+}
+
+.durationTimeIn {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #06295E;
+    margin-left: 30px;
+}
+
+.registrLineBigBlock {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px;
+    width: 80%;
+    height: 425px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url('../../../assets/Vector\ 19.png');
+    background-repeat: no-repeat;
+}
+
+.registrNowText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    color: #FCFCFC;
+}
+
+.registrNowText2 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    text-align: center;
+}
+
+.registrFormStyle {
+    width: 55%;
+    height: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #716F72;
+    display: block;
+    margin: auto;
+}
+
+.registrFormButton {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    background: #06295E;
+    border-radius: 0px 20px;
+    border: none;
+    width: 55%;
+    height: 45px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+.registrFormButton:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    background: white;
+    color: black;
+    border: 1px solid #06295E;
+}
+.organiztionCurseTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200px;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+    height: 165px;
+}
+
+.organiztionCurseBigBlock {
+    width: 99%;
+    height: 560px;
+    margin: auto;
+    background-image: url('../../../assets/Frame\ 371.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.organiztionBlockOfText {
+    width: 470px;
+    height: 490px;
+    margin: auto;
+    background: #06295E;
+    border-radius: 0px 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    overflow: auto;
+}
+
+.reviews {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+    margin-bottom: 0;
+    height: 60px;
+}
+
+.reviewToOur {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+}
+
+.reviewBigBlock {
+    width: 99%;
+    height: 400px;
+    margin: auto;
+    margin-top: 90px;
+    background-image: url('../../../assets/GroupG.png');
+    background-size: cover;
+}
+
+.reviewsBlockBig {
+    width: 100%;
+    height: 455px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reviewsBlock {
+    width: 25%;
+    height: 452px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px;
+}
+
+.revewsStudentImg {
+    width: 50%;
+    height: 125px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 0px 20px;
+}
+
+.reviewsStudentName {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #06295E;
+}
+
+.reviewsStudentPosition {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #06295E;
+}
+
+.reviewsStartBlock {
+    width: 80%;
+    height: 30px;
+    margin: auto;
+}
+
+.reviewsStudentDescription {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #06295E;
+    margin-top: 44px;
+}
+
+.questionTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200px;
+    letter-spacing: 1px;
+    color: #101010;
+    text-align: center;
+    margin-top: 100px;
+
+    p {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+}
+
+.questionBigBlock {
+    width: 99%;
+    height: 470px;
+    margin: auto;
+}
+
+.accordion-item {
+    width: 95% !important;
+    margin: auto !important;
+    margin-bottom: 25px !important;
+    background: #FFFFFF !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 10px !important;
+}
+
+.accordion-button::after {
+    background-image: url('../../../assets/akar-icons_plus.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    position: absolute;
+    right: 46px !important;
+}
+
+.firstTextInQuestionText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.lastTextQues {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.trainTestStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+    color: #42975B;
+}
+
+.questionButton {
+    border: none;
+    width: 18%;
+    height: 50px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    background: #42975B;
+    border-radius: 0px 20px;
+    margin-left: 35px;
+}
+.questionButton:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    border:1px solid #42975B;
+    background: white;
+    color: black;
+}
+.ourMe {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #101010;
+    margin-top: 50px;
+}
+
+.mapAndAboutOurBigBlock {
+    width: 99%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    background-image: url("../../../assets/VectorM.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    position: absolute;
+    right: 46px !important;
+}
+
+.aboutOurBig {
+    width: 40%;
+    height: 400px;
+}
+
+.map {
+    width: 60%;
+    height: 400px;
+    background-image: url('../../../assets/Frame\ 373.png');
+    background-size: cover;
+    border-radius: 0px 50px;
+}
+
+.ourTelNumber {
+    border-left: 2px solid green;
+    width: 80%;
+    height: 50px;
+    margin: 15px;
+}
+
+.ourTelNumberContantLogoBlock {
+    border-left: 2px solid green;
+    width: 35%;
+    height: 50px;
+    margin: 15px;
+}
+
+.telefonTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.telefonNumTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 8px;
+    letter-spacing: 1px;
+    color: #42975B;
+    padding-left: 10px;
+
+}
+
+.ourLogoBigBlock {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.fbLogo {
+    width: 20%;
+    height: 30px;
+    background-image: url('../../../assets/F.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twiLogo {
+    width: 20%;
+    height: 30px;
+    background-image: url('../../../assets/T.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inLogo {
+    width: 20%;
+    height: 30px;
+    background-image: url('../../../assets/I.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.registrForForm {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #06295E;
+    padding-left: 15px;
+}
+
+.registrInputOnly {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #716F72;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+    margin: 10px;
+}
+
+.registrForFormB {
+    background: #06295E;
+    border-radius: 0px 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    width: 40%;
+    height: 50px;
+    border: none;
+    margin-left: 15px;
+}
+
+//////////////modal\\\\\\\\\\\\\\\\\\\\\\\
+.questionBigBlockCenter {
+    width: 100%;
+    height: 445px;
+}
+
+.questionTextStyleModal {
+    width: 100%;
+    height: 30px;
+    margin-top: 0;
+
+    p {
+        text-align: center;
+    }
+}
+
+.questionInputBlock {
+    width: 100%;
+    height: 370px;
+
+    button {
+        background: #06295E;
+        border-radius: 0px 20px;
+        height: 50px;
+        width: 25%;
+        border: none;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: 1px;
+        color: #FCFCFC;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+.forInputBlock {
+    width: 100%;
+    height: 150px;
+
+}
+
+.rigistrInputStyle {
+    background: #FCFCFC;
+    border: 1px solid #06295E;
+    border-radius: 16px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #646161;
+    padding-left: 20px;
+    width: 49%;
+    height: 40px;
+    margin-right: 6px;
+}
+
+@media screen and (max-width: 1200px) {
+    .fortudyText {
+        font-size: 15px;
+    }
+
+    .fortudyText2 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    .viewMoreBlock {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .rigistrBigBlock {
+        display: block;
+        height: auto;
+    }
+
+    .lessonTime {
+        margin: auto;
+        width: 90%;
+        height: 230px;
+    }
+
+    .lessonTextP {
+        text-align: center;
+    }
+
+    .registrForLesson {
+        margin: auto;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:1013px) {
+    .traningBlock {
+        width: 34%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .advantagesBigBlock {
+        display: block;
+        height: auto;
+    }
+
+    .advantagesLeftBlock {
+        width: 80%;
+        margin: auto;
+    }
+
+    .viewMoreBlock {
+        width: 60%;
+    }
+
+    .advantagesRightBlock {
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:930px) {
+    .headerRightBlock {
+        display: none;
+    }
+
+    .headerLeftBlock {
+        margin: auto;
+        width: 100%;
+    }
+
+    .questionButton {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:917px) {
+    .ourTelNumberContantLogoBlock {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:885px) {
+    .AdvantagesRightImg1 {
+        width: 80%;
+    }
+
+    .AdvantagesRightImg2 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .modal-content {
+        width: 105% !important;
+        margin-left: -9px !important;
+    }
+
+    .rigistrInputStyle {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:789px) {
+    .reviewsStudentName {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:773px) {
+    .fortudyText {
+        font-size: 11px;
+    }
+
+    .fortudyText2 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .registrFormStyle {
+        width: 75%;
+        font-size: 12px;
+    }
+
+    .registrFormButton {
+        font-size: 16px;
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    .durationsBlock {
+        width: 13%;
+        height: 100px;
+    }
+
+    .duraionTime {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .durationTimeIn {
+        font-size: 16px;
+        margin-left: 21px;
+        line-height: 0;
+    }
+
+}
+
+@media screen and (max-width:732px) {
+    .registrNowText2 {
+        font-size: 10px;
+    }
+
+    .registrNowText {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .AdvantagesRightImg1 {
+        width: 100%;
+    }
+
+    .AdvantagesRightImg2 {
+        width: 100%;
+    }
+
+    .reviewsBlock {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    .questionTextStyle {
+        margin-top: 560px;
+    }
+}
+
+@media screen and (max-width:625px) {
+    .advantagesText {
+        font-size: 14px;
+    }
+
+    .tranginButton {
+        width: 80%;
+    }
+
+    .telefonTextStyle {
+        font-size: 14px;
+    }
+
+    .telefonNumTextStyle {
+        font-size: 12px;
+    }
+
+    .registrForForm {
+        font-size: 14px;
+    }
+
+    .registrForFormB {
+        font-size: 14px;
+        width: 60%;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .headerLogo {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .registrLineBigBlock {
+        width: 100%;
+    }
+
+    .durationsBlock {
+        height: 80px;
+    }
+
+    .durationTimeIn {
+        margin-left: 12px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .AdvantagesRightImg1 {
+        width: 1300px;
+    }
+
+    .AdvantagesRightImg2 {
+        width: 1000px;
+    }
+
+    .advantagesRightBlock {
+        width: 80%;
+    }
+    .mapAndAboutOurBigBlock{
+        display: block;
+    }
+    .aboutOurBig{
+        width: 100%;
+        margin: auto;
+    }
+    .map{
+        display: none;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .reviewsBlock {
+        width: 51%;
+        margin-bottom: 10px;
+    }
+
+    .questionTextStyle {
+        margin-top: 1000px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .durationsBlock {
+        margin: 20px;
+    }
+
+    .duraionTime {
+        margin: 8px;
+        font-size: 15px;
+    }
+
+    .durationTimeIn {
+        font-size: 12px;
+        margin-left: 7px;
+    }
+    .advantagesLeftBlock{
+        margin: 0;
+    }
+    .advantagesInfBigBlock {
+        margin-left: 20px !important;
+        width: 122%;
+    }
+    .advantagesText{
+        width: 100%;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:370px) {
+    .traningText{
+        font-size: 13px;
+    }       
+    .tranginButton{
+        font-size: 13px;
+    }
+}

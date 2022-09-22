@@ -1,0 +1,210 @@
+.seeMoreeBigHeaderBlock {
+    width: 100%;
+    height: 120px;
+    background: #06295E;
+}
+
+.headerLogo {
+    width: 20%;
+    height: 110px;
+    background-image: url('../../../assets/ks.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+
+.headerNavbar {
+    width: 70%;
+    height: 110px;
+}
+
+.headerBlock {
+    width: 100%;
+    height: 110px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.programingTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.programingBigBlock {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.logoBlock {
+    border: 1px solid #06295E;
+    border-radius: 0px 20px;
+    width: 38%;
+    height: 500px;
+    background-image: url("../../../assets/5a38462fc548b3 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+}
+
+.programingInfoBlock {
+    width: 50%;
+    height: auto;
+    padding: 60px;
+    padding-top: 0;
+}
+
+.cursesAboutBigBlock {
+    width: 85%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-bottom: 10px;
+}
+
+.cueseAboutTextName {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #101010;
+}
+
+.cueseAboutTextMuch {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #101010;
+}
+
+.cursesAboutDesc {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.registrBlock {
+    border: none;
+    width: 35%;
+    float: right;
+    height: 55px;
+    background: #06295E;
+    border-radius: 0px 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #FCFCFC;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.seeMoreeDescribshnScrollBlock {
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+}
+
+@media screen and (max-width:1290px) {
+    .cursesAboutBigBlock {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1065px) {
+    .programingInfoBlock {
+        width: 62%;
+    }
+}
+@media screen and (max-width:922px) {
+    .headerLogo{
+        width: 40%;
+    }
+}
+@media screen and (max-width:850px) {
+    .programingBigBlock {
+        display: block;
+    }
+
+    .logoBlock {
+        margin: auto;
+        width: 60%;
+    }
+
+    .programingInfoBlock {
+        margin: auto;
+        width: 100%;
+    }
+
+    .programingBigBlock {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:655px) {
+    .cueseAboutTextName {
+        font-size: 15px;
+    }
+
+    .cueseAboutTextMuch {
+        font-size: 15px;
+    }
+
+    .cursesAboutDesc {
+        font-size: 15px;
+    }
+    .headerLogo{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:454px) {
+    .programingInfoBlock {
+        padding: 41px;
+    }
+
+    .cursesAboutBigBlock {
+        margin: 15px;
+    }
+
+    .registrBlock {
+        margin: 4%;
+        font-size: 13px;
+        height: 43px;
+        width: 35%;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width:390px) {
+    .programingInfoBlock{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:360px) {
+    .headerLogo{
+        background-size: 140px;
+    }
+}

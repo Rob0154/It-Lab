@@ -1,0 +1,501 @@
+.headerBigBlock {
+    width: 100%;
+    height: 404px;
+    background-image: url('../../../assets/A.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headerBlock {
+    width: 100%;
+    height: 110px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.headerLogo {
+    width: 20%;
+    height: 110px;
+    background-image: url('../../../assets/Сгруппировать 78 (2) 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.headerNavbar {
+    width: 70%;
+    height: 110px
+}
+
+.cursesTextStyle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #06295E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ourHistoryText {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+}
+.anotherBeforBlock{
+    width: 100%;
+    height: 30px;
+}
+.ourHistoryText2 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+}
+.ourHistoryBigBlock {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ourHistryDescribshn {
+    width: 45%;
+    height: 400px;
+    overflow: auto;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.logoOurHistry {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoOneHis {
+    width: 25%;
+    height: 300px;
+    border-radius: 0px 20px;
+    background-image: url('../../../assets/Rectangle 328.png');
+    background-size: cover;
+    background-position-x: -10px;
+}
+
+.logoTwoHis {
+    width: 24%;
+    height: 245px;
+    margin-left: 15px;
+    border-radius: 0px 20px;
+    background-image: url('../../../assets/Rectangle 327.png');
+}
+
+.specialBigBlock {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.speciasBlock {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 30px 0px;
+    width: 22%;
+    height: 390px;
+    background-image: url('../../../assets/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651 2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 120px;
+    padding: 15px;
+}
+
+.speciasBlock2 {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 30px 0px;
+    width: 22%;
+    height: 390px;
+    background-image: url('../../../assets/kisspng-sat-bildung-oase-student-education-college-students-5ac817434431c4 2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 131px;
+    padding: 15px;
+}
+
+.speciasBlock3 {
+    background: #FFFFFF;
+    border: 1px solid #06295E;
+    border-radius: 30px 0px;
+    width: 22%;
+    height: 390px;
+    background-image: url('../../../assets/asd.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 120px;
+    padding: 15px;
+}
+
+.specialNameText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #000000;
+    width: 190px;
+}
+
+.specialDesText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.caruselBigBlock1 {
+    width: 100%;
+    height: 500px;
+}
+
+.al {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item {
+    align-items: center;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #716F72;
+}
+
+.caruselLogoBlock {
+    width: 25%;
+    height: 350px;
+    background-image: url('../../../assets/Rectangle 54.png');
+    background-size: cover;
+}
+
+.caruselLogoBlock2 {
+    width: 25%;
+    height: 350px;
+    background-image: url('../../../assets/a.jpg');
+    background-size: cover;
+    background-position-x: -150px;
+}
+
+.caruselLogoBlock3 {
+    width: 25%;
+    height: 350px;
+    background-image: url('../../../assets/close-up-of-young-successful-man-smiling-at-camera-standing-in-casual-outfit-against-blue-background_1258-66609.jpg');
+    background-size: cover;
+    background-position-x: -90px;
+}
+
+.caruseInfoBlock {
+    width: 40%;
+    height: 350px;
+    padding: 25px;
+}
+
+.userName {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #333333;
+    width: 165%;
+}
+
+.cursBigBlock {
+    width: 90%;
+    height: 35px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.curLogoBlock {
+    width: 10%;
+    height: 35px;
+    background-image: url('../../../assets/Vector4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cursInfo {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.lastAboutUsBlock {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studyBigBlock {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 70px 0px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+}
+
+.logoAndNameBlock {
+    width: 30%;
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+.descibshnBigBlock {
+    width: 65%;
+    height: 300px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #4F4F4F;
+    overflow: auto;
+}
+.sliderBLock{
+    width: 10%;
+    height: 100px;
+    background-image: url('../../../assets/Vector2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sliderBLock2{
+    width: 10%;
+    height: 100px;
+    background-image: url('../../../assets/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.loTeBlock {
+    width: 70%;
+    height: 240px;
+    margin: auto;
+
+    p {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+}
+@media screen and (max-width:1328px) {
+    .speciasBlock{
+        background-size: 130px;
+    background-position-y: 232px;
+    }
+    .speciasBlock2{
+        background-size: 130px;
+    background-position-y: 215px;
+    }
+    .speciasBlock3{
+        background-position-y: 233px;
+    background-size: 210px;
+    }
+}
+@media screen and (max-width: 1245px) {
+    .cursBigBlock{
+        width: 160%;
+    }
+}
+@media screen and (max-width:1100px) {
+    .specialNameText{
+        font-size: 15px;
+    }
+    .headerBigBlock{
+        height: 293px;
+    }
+}
+@media screen and (max-width:950px) {
+    .logoOneHis{
+        width: 45%;
+    }
+    .logoTwoHis{
+        width: 45%;
+    }
+    .caruselLogoBlock{
+        background-position-x: -86px;
+    }
+    .caruselLogoBlock2{
+        background-position-x: -250px;
+    }
+    .caruselLogoBlock3{
+        background-position-x: -170px;
+
+    }
+    .descibshnBigBlock{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:837px) {
+    .specialDesText{
+        line-height: 20px; 
+     letter-spacing: 0;
+    }
+    .headerBigBlock{
+        height: 218px;
+    }
+    .loTeBlock{
+        img{
+            height: 115px !important;
+        }
+    }
+}
+@media screen and (max-width:750px) {
+    .speciasBlock{
+       width: 40%;
+    }
+    .speciasBlock2{
+        width: 40%;
+    }
+    .speciasBlock3{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .ourHistoryText2{
+        margin-top: 450px;
+    }
+    .specialBigBlock{
+        flex-wrap: wrap;
+    }
+    .cursInfo{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:600px) {
+    .headerBigBlock{
+        height: 159px;
+    }
+    .headerLogo{
+        width:  40%;
+    }
+    .caruselLogoBlock{
+        display: none;
+    }
+    .caruselLogoBlock2{
+        display: none;
+    }
+    .caruselLogoBlock3{
+        display: none;
+    }
+    .caruseInfoBlock{
+        width: 70%;
+    }
+}
+@media screen and (max-width:520px) {
+    .speciasBlock{
+        width: 46%;
+     }
+     .speciasBlock2{
+         width: 46%;
+     }
+     .speciasBlock3{
+         width: 46%;
+     }
+     .specialNameText{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:440px) {
+    .userName{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:360px) {
+    .descibshnBigBlock{
+        font-size: 10px;
+    }
+    .loTeBlock{
+        p{
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width:350px) {
+    .ourHistryDescribshn{
+        font-size: 12px;
+    }
+    .descibshnBigBlock{
+        font-size: 12px;
+    }
+    .loTeBlock{
+        p{
+            font-size: 9px;
+        }
+    }
+}
+@media screen and (max-width:420px) {
+    .logoTextStyle{
+        font-size: 12px;
+    }
+    .logoTextStyle2{
+        font-size: 12px;
+    }
+    .specialNameText{
+        width: 0;
+    }
+}
+@media screen and (max-width:360px) {
+    .descibshnBigBlock{
+        font-size: 10px;
+    }
+    .loTeBlock{
+        p{
+            font-size: 10px;
+        }
+    }
+}
