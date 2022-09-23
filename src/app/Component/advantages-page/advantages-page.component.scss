@@ -125,6 +125,7 @@
     height: 380px;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .oneImg {
@@ -165,6 +166,7 @@
     height: 450px;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .lastImgOne {
@@ -232,6 +234,20 @@
 @media screen and (max-width:585px) {
     .headerLogo{
         width: 50%;
+    }
+}
+@media screen and (max-width:460px) {
+    .testingBigBlock{
+        display: block;
+        height: auto;
+    }
+    .testingInfoAndButtonBigBlock{
+        margin: auto;
+        width: 100%;
+    }
+    .testingLogoBig{
+        margin: auto;
+        width: 70%;
     }
 }
 @media screen and (max-width:555px) {

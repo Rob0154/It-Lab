@@ -1585,6 +1585,7 @@
 @media screen and (max-width:550px) {
     .registrLineBigBlock {
         width: 100%;
+        height: auto;
     }
 
     .durationsBlock {
@@ -1593,6 +1594,9 @@
 
     .durationTimeIn {
         margin-left: 12px;
+    }
+    .registrFormButton{
+        font-size: 13px;
     }
 }
 
