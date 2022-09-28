@@ -10,35 +10,31 @@ import { SeeMorrePageComponent } from './Component/see-morre-page/see-morre-page
 const routes: Routes = [
   {
     path:'',
-    redirectTo:'/գլխավոր',
+    redirectTo:'/main',
     pathMatch:'full'
   },
   {
-    path:'գլխավոր',
+    path:'main',
     component:MainPageComponent 
   },
   {
-    path:'մեր-մասին',
+    path:'about-us',
     component:AboutUsPageComponent,
   },
   {
-    path:'դասընթացներ',
+    path:'courses',
     component:CoursesPageComponent,
   },
   {
-    path:'կապ',
-    component:MainPageComponent,
-  },
-  {
-    path:'տեսնե-ավելին',
+    path:'see-more',
     component:SeeMorrePageComponent
   },
   {
-    path:'առավելություններ',
+    path:'advantages',
     component:AdvantagesPageComponent
   },
   {
-    path:'գրանցվել',
+    path:'registr',
     component:RegistrPageComponent
   }
 ];

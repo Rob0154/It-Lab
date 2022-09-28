@@ -144,6 +144,14 @@ input:hover{
     transition: 0.8s;
     box-shadow: 0 0 10px black;
 }
+.headerNavbar{
+    ::ng-deep .pagesBlock{
+        color:white !important;
+    }
+    ::ng-deep .registrBlock{
+        background: #42975B !important;
+    }
+}
 @media screen and (max-width:1000px) {
     .registrImgBlock{
         display: none;

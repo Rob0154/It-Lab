@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-header',
@@ -9,28 +9,28 @@ export class HeaderComponent implements OnInit {
   headerListNavigate= [
     {
       title:'Գլխավոր',
-      path:'/գլխավոր'
+      path:'/main'
     },
     {
       title:'Մեր մասին',
-      path:'/մեր-մասին'
+      path:'/about-us'
     },
     {
       title:'Դասընթացներ',
-      path:'/դասընթացներ'
+      path:'/courses'
 
     },
     {
       title:'Կապ',
-      path:'/կապ'
+    
 
     },
   ]
+  @Input() style!: string;
   constructor(private router:Router) { }
-
   ngOnInit(): void {
   }
   registrPage(){
-    this.router.navigate(['/գրանցվել'])
+    this.router.navigate(['/registr'])
   }
 }

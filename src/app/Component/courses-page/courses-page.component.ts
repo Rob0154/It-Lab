@@ -146,31 +146,7 @@ selected: Date | null;
 
   ngOnInit(): void {
   }
-  paginatorList(num:number){
-    if(num == 1){
-      let list1 = this.el.nativeElement.getElementsByClassName('paginator1')[0]
-      list1.style.color = '#42975B'
-      let list2 = this.el.nativeElement.getElementsByClassName('paginator2')[0]
-      list2.style.color = '#06295E'
-      let list3 = this.el.nativeElement.getElementsByClassName('paginator3')[0]
-      list3.style.color = '#06295E'
-    }else if (num == 2){
-      let list1 = this.el.nativeElement.getElementsByClassName('paginator1')[0]
-      list1.style.color = '#06295E'
-      let list2 = this.el.nativeElement.getElementsByClassName('paginator2')[0]
-      list2.style.color = '#42975B'
-      let list3 = this.el.nativeElement.getElementsByClassName('paginator3')[0]
-      list3.style.color = '#06295E'
-    }else {
-      let list1 = this.el.nativeElement.getElementsByClassName('paginator1')[0]
-      list1.style.color = '#06295E'
-      let list2 = this.el.nativeElement.getElementsByClassName('paginator2')[0]
-      list2.style.color = '#06295E'
-      let list3 = this.el.nativeElement.getElementsByClassName('paginator3')[0]
-      list3.style.color = '#42975B'
-    }
-  }
   rountingPage(){
-    this.router.navigate(['/տեսնե-ավելին'])
+    this.router.navigate(['/see-more'])
   }
 }

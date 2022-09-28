@@ -12,21 +12,17 @@ export class FouterComponent implements OnInit {
   ngOnInit(): void {
   }
   navigateAdvantagesPage(){
-    this.router.navigate(['/առավելություններ'])
-    window.scroll(0,0)
+    this.router.navigate(['/advantages'])
   }
   routerAboutOurPage(){
-    this.router.navigate(['/մեր-մասին'])
-    window.scroll(0,0)
+    this.router.navigate(['/about-us'])
   }
   routerCursesPage(){
-    this.router.navigate(['/դասընթացներ'])
-    window.scroll(0,0)
+    this.router.navigate(['/courses'])
 
   }
   routerMinePage(){
-    this.router.navigate(['/գլխավոր'])
-    window.scroll(0,0)
+    this.router.navigate(['/main'])
 
   }
 }

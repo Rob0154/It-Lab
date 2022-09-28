@@ -1,4 +1,21 @@
-<div class="headerContent">
+<div class="headerBigBlock">
+<div class="headerBlock">
+    <div class="headerLogo"  [ngClass]="{'anotherPageHeaderLogoStyle': style == 'changeColor','anotherPageHeaderLogoStyle2': style == 'changeColor2'}"></div>
+    <div class="headerNavbar">
+        <div class="headerContent" >
+            <div class="pagesBlock" [ngClass]="{'anotherPageHeaderStyle': style == 'changeColor','anotherPageHeaderStyle2': style == 'changeColor2'}" *ngFor="let itm of headerListNavigate" [routerLink]="itm.path" routerLinkActive="activeRoute">{{itm.title}}</div>
+            <div class="registrBlock" (click)="registrPage()" [ngClass]="{'anotherPageHeaderButtonStyle': style == 'changeColor','anotherPageHeaderButtonStyle2':style == 'changeColor2'}">Գրանցվել</div>
+            <div class="dropwDownHeader" [matMenuTriggerFor]="menu"></div>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item *ngFor="let itm of headerListNavigate" [routerLink]="itm.path" routerLinkActive="activeRoute" class="buttonTextHover" style="text-align:center;">{{itm.title}}</button>
+                <div class="registrBlock2" (click)="registrPage()" >Գրանցվել</div>
+        
+            </mat-menu>
+        </div>
+    </div>
+</div>
+</div>
+<!-- <div class="headerContent" >
     <div class="pagesBlock" *ngFor="let itm of headerListNavigate" [routerLink]="itm.path" routerLinkActive="activeRoute">{{itm.title}}</div>
     <div class="registrBlock" (click)="registrPage()">Գրանցվել</div>
     <div class="dropwDownHeader" [matMenuTriggerFor]="menu"></div>
@@ -7,4 +24,4 @@
         <div class="registrBlock2" (click)="registrPage()">Գրանցվել</div>
 
     </mat-menu>
-</div>
+</div> -->
