@@ -413,10 +413,6 @@
 }
 
 @media screen and (max-width:1225px) {
-    .cursesTextStyle {
-        line-height: 150px;
-    }
-
     .modal-content {
         margin-left: -139px !important;
         width: 156% !important;
@@ -485,7 +481,7 @@
 }
 @media screen and (max-width:773px) {
     .cursesTextStyle {
-        line-height: 20px;
+        line-height: 240px;
     }
 
     .headerBigBlock {
@@ -540,7 +536,6 @@
 
 @media screen and (max-width:520px) {
     .cursesTextStyle {
-        line-height: 0;
         font-size: 15px;
     }
 

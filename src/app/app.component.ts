@@ -16,7 +16,6 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe((res => {
       
       if (res instanceof NavigationEnd) {
-        console.log(res.url);
         if (res.url === '/registr') {
           this.hello = 'changeColor'
         } else if (res.url === '/see-more'){

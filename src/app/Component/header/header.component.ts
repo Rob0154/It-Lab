@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  @Input() style!: string;
   headerListNavigate= [
     {
       title:'Գլխավոր',
@@ -22,12 +23,10 @@ export class HeaderComponent implements OnInit {
     },
     {
       title:'Կապ',
-    
-
     },
   ]
-  @Input() style!: string;
   constructor(private router:Router) { }
+  
   ngOnInit(): void {
   }
   registrPage(){

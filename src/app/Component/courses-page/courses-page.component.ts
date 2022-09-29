@@ -142,7 +142,10 @@ cursesSmoolList = [
   },
 ]
 selected: Date | null;
-  constructor(private el:ElementRef,private router:Router) { }
+  constructor(
+    private el:ElementRef,
+    private router:Router
+    ) { }
 
   ngOnInit(): void {
   }
